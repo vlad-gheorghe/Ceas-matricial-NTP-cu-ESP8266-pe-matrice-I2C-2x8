@@ -27,7 +27,7 @@
 //
 // #endif /* WIFI_NETWORK_H */
 
-#include "WiFi_Network.h"
+//#include "WiFi_Network.h"
 #include <Adafruit_GFX.h>
 #include <Adafruit_LEDBackpack.h>
 #include <ESP8266WiFi.h>
@@ -36,6 +36,12 @@
 #include <Time.h>
 #include <TimeLib.h>
 #include <Timezone.h>
+#include <DNSServer.h>
+#include <ESP8266WebServer.h>
+#include <WiFiManager.h>
+#include <DNSServer.h>
+#include <ESP8266WebServer.h>
+#include <WiFiManager.h>
 
 // Define NTP properties
 #define NTP_OFFSET   60 * 60      // In seconds
